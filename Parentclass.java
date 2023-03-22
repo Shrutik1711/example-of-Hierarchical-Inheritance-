@@ -1,25 +1,25 @@
-// Parent class
+
 class Animal {
   void eat() {
     System.out.println("Eating...");
   }
 }
 
-// Child class 1
+
 class Cat extends Animal {
   void meow() {
     System.out.println("Meowing...");
   }
 }
 
-// Child class 2
+
 class Dog extends Animal {
   void bark() {
     System.out.println("Barking...");
   }
 }
 
-// Main class
+
 public class Main {
   public static void main(String[] args) {
     Cat myCat = new Cat();
